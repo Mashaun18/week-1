@@ -7,6 +7,10 @@
 
     <style>
 
+        html{
+            font-size: 16px;
+        }
+
         
         main{
             width: 75%;
@@ -17,17 +21,16 @@
         h1{
             text-transform: capitalize;
             text-align: center;
-            border-width: 2em;
-            border-bottom: calc(2 * var(--root-size)) solid black;
-            padding: var(--root-size)0;
+            border-bottom: 4px solid black;
+            padding: 1rem 0;
 
         }
 
         h2{
             text-transform: capitalize;
-            font-size: 1.5rem;
+            font-size: 1.5em;
             color: #FFFFFF;
-            background-color: #808080;
+            background-color: gray;
         }
 
         img{
@@ -38,11 +41,11 @@
         }
 
         ul{
-            background: linear-gradient( to top, orange 50%, aqua 50%);
+            background: linear-gradient(to top, orange 50%, aqua 50%);
         }
 
         ol{
-            background: radial-gradient( circle at center, orange 50%, cyan 50%);
+            background: radial-gradient(circle, orange 50%, cyan 50%);
         }
 
         dd{
@@ -64,14 +67,13 @@
                 cyan 80% );
                 background-clip: text;
                 -webkit-background-clip: text;
-                color: transparent;
         }
 
         p{
             height: 100px;
-            overflow: scroll;
-            line-height: 1.5em;
-            font-size: 2em;
+            overflow: auto;
+            line-height: 1.5;
+            font-size: 32px;
         }
 
 
